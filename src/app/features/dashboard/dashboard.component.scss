@@ -1,0 +1,11 @@
+.dashboard {
+  max-width: 100vw;
+  overflow: hidden;
+
+  img {
+    border-radius: 1rem;
+    cursor: pointer;
+    object-fit: cover;
+    width: 100%;
+  }
+}
