@@ -1,0 +1,25 @@
+.messages {
+  display: flex;
+  height: 100vh;
+  justify-content: flex-start;
+  max-width: 100vw;
+  overflow: hidden;
+
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  span {
+    max-width: 30vw;
+    text-align: center;
+  }
+
+  img {
+    border-radius: 1rem;
+    cursor: pointer;
+    max-width: 30vw;
+    object-fit: cover;
+    width: 100%;
+  }
+}

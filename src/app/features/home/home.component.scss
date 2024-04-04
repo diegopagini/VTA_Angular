@@ -1,7 +1,14 @@
 .home {
+  display: flex;
+  flex-direction: column;
+
   img {
     border-radius: 1rem;
     cursor: pointer;
     max-width: 30vw;
+  }
+
+  .message {
+    margin-left: auto;
   }
 }

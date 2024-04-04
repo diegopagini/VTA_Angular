@@ -14,6 +14,13 @@ export const routes: Routes = [
       ),
   },
   {
+    path: 'messages',
+    loadComponent: () =>
+      import('./features/messages/messages.component').then(
+        (c) => c.MessagesComponent
+      ),
+  },
+  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full',
