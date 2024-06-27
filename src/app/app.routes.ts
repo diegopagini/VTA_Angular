@@ -21,6 +21,11 @@ export const routes: Routes = [
       ),
   },
   {
+    path: 'info',
+    loadComponent: () =>
+      import('./features/info/info.component').then((c) => c.InfoComponent),
+  },
+  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full',
